@@ -1,0 +1,4 @@
+[25-Jul-2024 14:02:59 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "myname" in C:\Users\Sam\Local Sites\fictional-university\app\public\experiment.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Sam\Local Sites\fictional-university\app\public\experiment.php on line 7
