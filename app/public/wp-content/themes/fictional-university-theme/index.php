@@ -1,7 +1,8 @@
 <!-- 1. get_header(): is a function used to import header to page  -->
-<?php get_header(); ?>
 
 <?php  
+
+get_header();
 
 while(have_posts()){
     the_post();?>
@@ -11,8 +12,9 @@ while(have_posts()){
     <?php  
 
 }
-
-
 get_footer();
 ?>
+
+
+
 

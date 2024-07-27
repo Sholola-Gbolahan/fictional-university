@@ -6,3 +6,6 @@
 
 
  // bloginfo() : this is a func already created by wordpress which gives all information about our website
+
+
+ Note: Nameing conventions are very important. functions not function
