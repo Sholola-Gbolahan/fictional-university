@@ -49,3 +49,13 @@ Stack trace:
 #2 C:\Users\Sam\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\Sam\\Lo...')
 #3 {main}
   thrown in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 13
+[27-Jul-2024 03:57:05 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 7
+[27-Jul-2024 03:57:05 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[27-Jul-2024 03:57:05 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[27-Jul-2024 03:59:06 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 8
+[27-Jul-2024 04:01:07 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 9
+[27-Jul-2024 04:03:08 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 10
+[27-Jul-2024 04:05:09 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 10
+[27-Jul-2024 04:07:05 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 10
+[27-Jul-2024 04:07:05 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 10
+[27-Jul-2024 04:07:10 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 10
