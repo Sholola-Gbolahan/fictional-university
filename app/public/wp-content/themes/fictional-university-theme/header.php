@@ -20,14 +20,11 @@
         <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
         <div class="site-header__menu group">
           <nav class="main-navigation">
-            <ul>
-              <!-- 1. Adding link function to link to each pages -->
-              <li><a href="<?php echo site_url('/about-us') ?>">About Us</a></li>
-              <li><a href="#">Programs</a></li>
-              <li><a href="#">Events</a></li>
-              <li><a href="#">Campuses</a></li>
-              <li><a href="#">Blog</a></li>
-            </ul>
+            <!-- 1.wp_nav_menu(): func used in Outputting a dynamic menu instead of the hand coded ones -->
+              <?php wp_nav_menu(array(
+                // Setting the menu location using the assign location from wordpress
+                'theme_location' => 'headerMenuLocation'
+              ))?>
           </nav>
           <div class="site-header__util">
             <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>

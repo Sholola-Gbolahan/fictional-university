@@ -15,6 +15,7 @@ Note:
   - codex.wordpress.org
   - developer.wordpress.org
 - An associate array is a type of array that a value assigned or associated to each items.
+- the class Name "current-menu-item" is used to style links when active
 
 # COMMON FUNCTIONS TO Note
 
@@ -32,3 +33,4 @@ Note:
 - wp_list_pages( ) : this function output list to all the existing pages on wordpress
 - get_pages( ) : this func only output list of pages in memory not outputting them.
 - body_class() : body_class() : provide us with a lot class information about any visited page
+- wp_nav_menu(): func used in Outputting a dynamic menu instead of the hand coded ones

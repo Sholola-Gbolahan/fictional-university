@@ -11,10 +11,12 @@ function university_files() {
 add_action('wp_enqueue_scripts','university_files');
 
 function university_features(){
-    // 2. add_theme_support() : The function used to enable any feature for my theme 
-    // 3. this is enabling the title tag feature which makes each page has it's own title
+    // A function to add Menu location to wordpress
+    register_nav_menu('headerMenuLocation', 'Header Menu Location');
+    register_nav_menu('footerLocationOne', 'Footer Location One');
+    register_nav_menu('footerLocationTwo', 'Footer Location Two');
+
     add_theme_support('title_tag');
 }
 
-// 1. Telling wordpress to automatically display the page tile we're viewing in the headers title by adding the feature
 add_action('after_setup_theme', 'university_features');
