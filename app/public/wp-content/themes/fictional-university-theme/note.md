@@ -1,16 +1,24 @@
-#1. CREATING A NEW THEME
+## CREATING A NEW THEME
+
 a. Add the two files index.php and style.css to folder
 b. for the style to work, add the first comment section
 c. The only format for adding image to thme is screenshot.php
 d. the photo should be 1200 px wide and 900px hight
 
-// :
+Note:
 
-Note: Nameing conventions are very important. functions not function
+## Key Notes
+
+- Nameing conventions are very important. functions not function
+- Any function begining with the means WP handles it echo on the page WHILE funcion beginning with get_the - means it not echoing value it's just return the value which we have to echo by ourselfs.
+- Two key wordpress site to have are:
+  - codex.wordpress.org
+  - developer.wordpress.org
+-
 
 # COMMON FUNCTIONS TO Note
 
-- echo : used to print or display a value
+- echo : used to output or display a value
 - bloginfo ( ) : this is a func already created by wordpress which gives all information about our website
 - action ( ) : Used to tell wordpress what to do
 - get_theme_file_uri ( ) : Used to link to a file
