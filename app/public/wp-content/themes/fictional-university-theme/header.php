@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<html >
+<!DOCTYPE html >
+<!-- this is used to sit site language to that seleted in wordpress settings -->
+<html <?php  language_attributes()?>>
 <head>
+  <!-- telling wordpress type of character and number to use -->
+  <meta charset=<?php bloginfo('charset')?> >
+  <!-- setting for each device to display web content according to their size -->
+  <meta name="viewport" content="width=device-width initial-scale = 1">
     <?php wp_head();?>
 
 </head>
-<body>
+<!-- body_class() : provide us with a lot class information about any visited page that can be used in Css and javascript -->
+<body <?php body_class();?> >
 <header class="site-header">
       <div class="container">
         <h1 class="school-logo-text float-left">
