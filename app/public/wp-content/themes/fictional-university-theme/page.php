@@ -8,8 +8,7 @@ while(have_posts()){
 <div class="page-banner">
       <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('images/ocean.jpg')?>)"></div>
       <div class="page-banner__content container container--narrow">
-        <!-- Replacing static content with dynamic contents for pages -->
-        <h1 class="page-banner__title"><?php the_title() ;?></h1>
+     <h1 class="page-banner__title"><?php the_title() ;?></h1>
         <div class="page-banner__intro">
           <p>THIS WILL BE REPLACED LATER </p>
         </div>
@@ -17,11 +16,26 @@ while(have_posts()){
     </div>
   
     <div class="container container--narrow page-section">
-      <div class="metabox metabox--position-up metabox--with-home-link">
-        <p>
-          <a class="metabox__blog-home-link" href="#"><i class="fa fa-home" aria-hidden="true"></i> Back to About Us</a> <span class="metabox__main">Our History</span>
-        </p>
-      </div>
+
+        
+        <!-- 1. The condition to display  an element only in child pages-->
+         <!-- the function get_the_ID() is used to get the ID of the page -->
+          
+        <?php  
+        // the function wp_get_post_parent_is() is used to get the ID page parent if existed 
+        $theParent = wp_get_post_parent_id( get_the_ID( )) ;
+        if ($theParent){ ?>
+            <div class="metabox metabox--position-up metabox--with-home-link">
+                <p>
+                    <!-- get_permalink( ): is used to link to the parent page ) -->
+                <a class="metabox__blog-home-link" href="<?php echo get_permalink($theParent);?>"><i class="fa fa-home" aria-hidden="true"></i> Back to <?php echo get_the_title($theParent);?></a> <span class="metabox__main"><?php the_title() ?></span>
+                </p>
+            </div>
+
+        <?php 
+        }
+        ?>
+    
 
       <!-- <div class="page-links">
         <h2 class="page-links__title"><a href="#">About Us</a></h2>
@@ -32,7 +46,6 @@ while(have_posts()){
       </div> -->
 
       <div class="generic-content">
-        <!-- 2. Applying wordpress page content to make pages dynamic -->
         <?php the_content(); ?>
       </div>
     </div>
