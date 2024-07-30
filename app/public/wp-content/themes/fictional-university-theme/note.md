@@ -14,7 +14,7 @@ Note:
 - Two key wordpress site to have are:
   - codex.wordpress.org
   - developer.wordpress.org
--
+- An associate array is a type of array that a value assigned or associated to each items.
 
 # COMMON FUNCTIONS TO Note
 
@@ -29,3 +29,6 @@ Note:
 - the_content ( ) : used to get page content.
 - get_the_ID () : used to get the ID number of any page
 - echo wp_get_post_parent_id( get_the_ID( )) : It's a function that give the ID number of parent page to a child page
+- wp_list_pages( ) : this function output list to all the existing pages on wordpress
+- get_pages( ) : this func only output list of pages in memory not outputting them.
+-

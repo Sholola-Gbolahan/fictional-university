@@ -100,3 +100,8 @@ Stack trace:
 #3 {main}
   thrown in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 24
 [30-Jul-2024 09:45:00 UTC] PHP Parse error:  syntax error, unexpected token "if" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 27
+[30-Jul-2024 11:56:58 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 41
+[30-Jul-2024 12:41:02 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 40
+[30-Jul-2024 12:43:05 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 51
+[30-Jul-2024 13:08:48 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 32
+[30-Jul-2024 13:16:31 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 33
