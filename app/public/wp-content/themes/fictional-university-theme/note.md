@@ -34,3 +34,4 @@ Note:
 - get_pages( ) : this func only output list of pages in memory not outputting them.
 - body_class() : body_class() : provide us with a lot class information about any visited page
 - wp_nav_menu(): func used in Outputting a dynamic menu instead of the hand coded ones
+- the_posts() : This func give a list of available post
