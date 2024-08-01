@@ -132,3 +132,8 @@ Stack trace:
 [31-Jul-2024 13:00:54 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive.php on line 15
 [31-Jul-2024 13:01:14 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive.php on line 15
 [31-Jul-2024 13:21:15 UTC] PHP Parse error:  syntax error, unexpected identifier "short" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive.php on line 13
+[01-Aug-2024 04:45:23 UTC] PHP Parse error:  syntax error, unexpected token ";" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php on line 59
+[01-Aug-2024 04:45:50 UTC] PHP Parse error:  syntax error, unexpected token ";" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php on line 59
+[01-Aug-2024 04:45:53 UTC] PHP Parse error:  syntax error, unexpected token ";" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php on line 59
+[01-Aug-2024 04:52:28 UTC] PHP Parse error:  syntax error, unexpected token "," in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php on line 70
+[01-Aug-2024 04:53:07 UTC] PHP Parse error:  syntax error, unexpected token ";" in C:\Users\Sam\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php on line 70
