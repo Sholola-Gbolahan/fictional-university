@@ -1,5 +1,0 @@
-#1. CREATING A NEW THEME
- a. Add the two files index.php and style.css to folder
- b. for the style to work, add the first comment section
- c. The only format for adding image to thme is screenshot.php
- d. the photo should be 1200 px wide and 900px hight
